@@ -9,13 +9,17 @@
 //     document.getElementById("forR").innerHTML= text;
 // }
 
-document.getElementsByClassName("richard").onmouseover = function() {mouseOver()};
-document.getElementsByClassName("richard").onmouseout = function() {mouseOut()};
+// document.getElementsByClassName("richard").onmouseover = function() {mouseOver()};
+// document.getElementsByClassName("richard").onmouseout = function() {mouseOut()};
 
-function mouseOver() {
-    document.getElementsByClassName("richard").style.color = "green";
-}
+// function mouseOver() {
+//     document.getElementsByClassName("richard").style.color = "green";
+// }
 
-function mouseOut() {
-    document.getElementsByClassName("richard").style.color = "red";
+// function mouseOut() {
+//     document.getElementsByClassName("richard").style.color = "red";
+// }
+
+function myFunction() {
+    alert("Vote Not Submitted")
 }
