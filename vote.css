@@ -1,4 +1,16 @@
+/* html style */
+html{
+   background-color: #f1faee;
+}
 /*h1 styles*/
+header h1{
+   float: top;
+   margin-bottom: -6px;
+   width: 100%;
+   height: 70px;
+   text-align: center;
+}
+
 /* h1.richard{
     position: absolute;
     left: 0px;
@@ -35,7 +47,7 @@ h1.george{
     position: absolute;
     left: 0px;
     height: 100%;
-    cursor: pointer;
+    cursor: url('thumbsup.png'), pointer;
  }
 
  button.right{
@@ -47,10 +59,18 @@ h1.george{
     cursor: url('thumbsdown.png'), pointer;
  }
 
- /*forN id styles*/
+ /* forN id styles
  p#forR{
    width: 50%;
    position: absolute;
    left: 0px;
    height: 100%;
+ } */
+
+ /*Body Styles / Removed some white space from body*/
+ body{
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 0 5%;
+   clear: both;
  }

@@ -20,6 +20,15 @@
 //     document.getElementsByClassName("richard").style.color = "red";
 // }
 
+//-----------------//
+//letting the user know their vote has not been submitted
 function myFunction() {
-    alert("Vote Not Submitted")
+    alert("You are about to vote for George Mcgovern, Are you Sure?")
 }
+
+//Removed context menu//
+
+window.addEventListener('contextmenu',
+function (e){
+    e.preventDefault();
+}, false);
