@@ -5,6 +5,7 @@ h1{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', cursive;
 }
 
 /*button style*/
@@ -15,4 +16,22 @@ button.middle{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    color: #f1faee !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #c1121f;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+
+button.middle:hover{
+    text-shadow: 0px 0px 6px rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
 }
